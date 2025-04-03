@@ -10,7 +10,7 @@ class MiPagina extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false, // Quita el banner de debug
       home: Scaffold(
-        backgroundColor: Colors.orange,
+        backgroundColor: Color(0xFFFE7C2B), // Cambia el color de fondo a FE7C2B
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -45,7 +45,7 @@ class MiPagina extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                   fontStyle: FontStyle.italic,
                   color:
-                      Color(0xff000000), // Cambia el color de la letra a blanco
+                      Color(0xff000000), // Cambia el color de la letra a negro
                 ),
               ),
               SizedBox(height: 30),
